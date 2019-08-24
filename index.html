@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            homepage
+        </title>
+
+        <style>
+            body{
+                background-color:rgb(0,0,50);
+                margin:0;
+                padding:0;
+                padding-top: 20px;
+                border:none;
+                color:rgb(0,125,225);
+                font-family: 'Helvetica', sans-serif;
+            }
+
+            #nav-bar{
+                position:fixed;
+                background-color:rgb(0,0,50);
+                overflow: hidden;
+                height: 20px;
+                width:100%;
+                display:block;
+                font-family: 'Helvetica',sans-serif;
+                left:0;
+                top:0
+            }
+            #nav-bar a{
+                color:white;
+                text-align: center;
+                padding:5px 10px 5px 10px;
+                border-right: 1px solid white;
+                text-decoration:none;
+            }
+             #nav-bar img{
+                height: 1em;
+                vertical-align: middle;
+            }
+            #nav-bar a:hover{
+                background-color: gray;
+                color:white;
+            }
+            #nav-bar a.active{
+                background-color: white;
+                color:black;
+            }
+
+            .welcome-message-text{
+                color:rgb(0,125,225);
+                width:75%;
+                margin:0 auto 0 auto;
+            }
+            #welcome-message{
+                display: block;
+                text-align: center;
+                font-family: 'Helvetica', sans-serif;
+                width:100%;
+            }
+                     
+            .button{
+                background-color: rgb(0,125,225);
+                color:white;
+                font-weight: bold;
+                font-size:20px;
+                border:none;
+                padding:10px;
+                text-decoration: none;
+            }
+            .button:hover{
+                background-color: gray;
+                color: white;
+            }
+
+            #top-projects {
+                display: block;
+                margin: 0px auto;
+                overflow: visible;
+                text-align: center;
+            }
+            table.center{
+                margin-right: auto;
+                margin-left: auto;
+            }
+            tr img{
+                width:300px;
+            }
+
+            #contact-form{
+                text-align:center;
+                margin:auto;
+                background-color:rgb(0,125,255);
+                width:100%;
+            }
+            iframe{
+                border:none;
+                padding:0px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <!--find where this goes:  <meta name=”viewport” content=”width=device-width, initial-scale=1″>-->
+       <div id="top-screen">
+            <div id="nav-bar">
+                <a class="active" href="./home.html">Home
+                <a href="./work.html">Work
+                <a href="./about.html">About
+                <a href="./resume.html">Brief Résumé
+                <a href="./contact.html">Contact
+                <a href="https://www.linkedin.com/in/veronica-roberts" target="_blank"><img src="https://drive.google.com/uc?id=1-otTZKf7Jn5TuP6ztWMp-be1xmkuettW" alt="Veronica Roberts' LinkedIn"></a>
+            </div>
+            
+            <div id="welcome-message">  
+                <br>
+                <h1 class="welcome-message-text" style="font-size:60px">
+                    Introducing 
+                    <br>
+                    Veronica Roberts
+                </h1>
+                <br>
+                <h2 class="welcome-message-text">
+                    Thanks for checking out my portfolio!
+                </h2>
+                 <br><br>
+                <h3 class="welcome-message-text" style="font-weight: normal">
+                    Feel free to browse my work or to contact me with questions you may have. I'm proud to put my work before you and look forward to continuing to put ever improving products in people's hands.
+                </h3>
+                <br><br>
+                <a class="button" href="./contact.html">Get in Touch</a>
+
+            </div> 
+            <br>
+            <div id="top-projects">
+                <table class="center">
+                    <tr>
+                        <td><a href="./scent-dispenser.html"><img src="https://drive.google.com/uc?id=1QhGCaezBeiqUTK5e5GjZ2iYRsu9x3t58" alt="Injection Molded Scent Dispenser" title="Injection Molded Scent Dipsenser"></a></td>
+                        <td><a href="./rc-car.html"><img src="https://drive.google.com/uc?id=1XJUOSV1owDVvjNrk79utwGSXQhbgm36s" alt="RC Car Joysticks" title="RC Car Joysticks"></a></td>
+                        <td><a href="./bracket.html"><img src="https://drive.google.com/uc?id=1LAp2bvjCJZZnRyXZrFkn9gPlRmrtbX_o" alt="Sheet Metal Bracket" title="Sheet Metal Bracket"></a></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <div id="contact-form">
+            <br>
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScSRm7_6RiSkzIbjsN7i6MlWpkp8rNlQ3AMtyC3a1Ve3aQ2hg/viewform?embedded=true" width="640" height="996"></iframe>
+        </div>
+    </body>
+</html>
