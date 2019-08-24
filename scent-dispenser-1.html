@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            scent-dispenser-1
+        </title>
+        
+        <style>
+            body{
+                background-color:rgb(0,0,50);
+                margin:0;
+                padding:0;
+                padding-top: 20px;
+                border:none;
+                color:rgb(0,125,225);
+                font-family: 'Helvetica', sans-serif;
+            }
+
+            #nav-bar{
+                position:fixed;
+                background-color:rgb(0,0,50);
+                overflow: hidden;
+                height:20px;
+                width:100%;
+                display:block;
+                font-family: 'Helvetica',sans-serif;
+                left:0;
+                top:0;
+                z-index:1;
+            }
+            #nav-bar a{
+                color:white;
+                text-align: center;
+                padding:5px 10px 5px 10px;
+                border-right: 1px solid white;
+                text-decoration:none;
+            }
+            #nav-bar img{
+                height: 1em;
+                vertical-align: middle;
+            }
+            #nav-bar a:hover{
+                background-color: gray;
+                color:white;
+            }
+            #nav-bar a.active{
+                background-color: white;
+                color:black;
+            }
+
+            .all{
+                display: flex;
+                flex-direction: column;
+            }
+
+            .main{
+                display:block;
+                text-align: center;
+                white-space: nowrap;
+            }
+
+            .product-pic{
+                margin-left: 70px;
+            }
+
+            .product-pic, .info{
+                display:inline-block;
+                height: 75vh;
+            }
+
+            .info{
+                width: 300px;
+                line-height: 1.5;
+                text-align: left;
+                overflow:auto;
+                margin-left: 75px;
+                margin-right:25px;
+                vertical-align: top;
+                white-space: normal;
+            }
+
+            a.button{
+                font-size: 60px;
+                color:rgb(0,125,225);
+                background-color: transparent;
+                border:none;
+                background-repeat: no-repeat;
+                background-size: contain;
+                overflow: hidden;
+                text-decoration: none;
+            }
+            a.button:hover{
+                background-color:gray;
+            }
+            .left-arrow{
+                margin-left: 20px;
+                float: left;
+            }
+            .right-arrow{
+                margin-right: 20px;
+                float: right;
+            }
+            .top-arrows, .bottom-arrows{
+                display:block;
+                width: 100vw;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <div id="nav-bar">
+            <a href="./homepage.html">Home
+            <a href="./work.html">Work
+            <a href="./about.html">About
+            <a href="./brief-resume.html">Brief Résumé
+            <a href="./contact.html">Contact
+            <a href="https://www.linkedin.com/in/veronica-roberts" target="_blank"><img src="https://drive.google.com/uc?id=1-otTZKf7Jn5TuP6ztWMp-be1xmkuettW" alt="Veronica Roberts' LinkedIn"></a>
+        </div>
+        
+        <div class="all">
+            <div class="top-arrows" style="order: 1">
+                <a href="./scent-dispenser.html" class="left-arrow button">&lArr;</a>
+                <a href="./scent-dispenser-2.html" class="right-arrow button">&rArr;</a> 
+            </div>          
+            
+            <div class="main" style="order: 2">
+                <img class="product-pic" src="https://drive.google.com/uc?id=1RgBq_PBoAb19UAF7ayUp0J-XqqFORQ-H" alt="Injection Molded Scent Dispenser with Flaps" title="Injection Molded Scent Dispenser with Flaps">
+                        
+                <div class="info">
+                    <h3>
+                        Scent Dispenser Assembly
+                    </h3>
+
+                    <p>
+                        This is the full assembly of the scent dispenser. It holds 1.36 cu. in. of scent crystals which can be exposed to the enviroment in four increments of 0.17 sq. in. for a total of 0.68 sq. in.  It can be suspended with the hook attached to the main body and has snap fasteners to secure the flaps and the halves together. There is a draft angle of 1 degree on all vertical surfaces.
+                        <br><br>
+                        This design was inspired by Icebreakers containers, pepper shakers, and Spacemaker pencil boxes. Similarly, the chosen material is polypropylene for its superior cost effectiveness and suitability for living hinges.
+                    </p>
+                </div>
+            </div>    
+            <br>
+
+            <div class="bottom-arrows" style="order: 3">
+                <a href="./scent-dispenser.html" class="left-arrow button">&lArr;</a>
+                <a href="./scent-dispenser-2.html" class="right-arrow button">&rArr;</a>
+            </div>
+        </div>
+        
+    </body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            contact
+        </title>
+        
+        <style>
+            body{
+                background-color:rgb(0,0,50);
+                margin:0;
+                padding:0;
+                padding-top: 20px;
+                padding-bottom: 20px;
+                border:none;
+                color:rgb(0,125,225);
+                font-family: 'Helvetica', sans-serif;
+            }
+
+            #nav-bar{
+                position:fixed;
+                background-color:rgb(0,0,50);
+                overflow: hidden;
+                height: 20px;
+                width:100%;
+                display:block;
+                font-family: 'Helvetica',sans-serif;
+                left:0;
+                top:0
+            }
+            #nav-bar a{
+                color:white;
+                text-align: center;
+                padding:5px 10px 5px 10px;
+                border-right: 1px solid white;
+                text-decoration:none;
+            }
+             #nav-bar img{
+                height: 1em;
+                vertical-align: middle;
+            }
+            #nav-bar a:hover{
+                background-color: gray;
+                color:white;
+            }
+            #nav-bar a.active{
+                background-color: white;
+                color:black;
+            }
+
+            #contact-form{
+                text-align:center;
+                margin:auto;
+                background-color:rgb(0,125,255);
+                width:100%;
+            }
+            iframe{
+                border:none;
+                padding:0px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div id="nav-bar">
+            <a href="./homepage.html">Home
+            <a href="./work.html">Work
+            <a href="./about.html">About
+            <a href="./brief-resume.html">Brief Résumé
+            <a class="active" href="./contact.html">Contact
+            <a href="https://www.linkedin.com/in/veronica-roberts" target="_blank"><img src="https://drive.google.com/uc?id=1-otTZKf7Jn5TuP6ztWMp-be1xmkuettW" alt="Veronica Roberts' LinkedIn"></a>
+        </div>
+        
+        <div id="contact-form">
+            <br>
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScSRm7_6RiSkzIbjsN7i6MlWpkp8rNlQ3AMtyC3a1Ve3aQ2hg/viewform?embedded=true" width="640" height="996"></iframe>
+        </div>
+    </body>
+</html>

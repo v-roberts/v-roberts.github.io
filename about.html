@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            about
+        </title>
+        
+        <style>
+            body{
+                background-color:rgb(0,0,50);
+                margin:0;
+                padding:0;
+                padding-top: 20px;
+                padding-bottom: 20px;
+                border:none;
+                color:rgb(0,125,225);
+                font-family: 'Helvetica', sans-serif;
+            }
+
+            #nav-bar{
+                position:fixed;
+                background-color:rgb(0,0,50);
+                overflow: hidden;
+                height: 20px;
+                width:100%;
+                display:block;
+                font-family: 'Helvetica',sans-serif;
+                left:0;
+                top:0
+            }
+            #nav-bar a{
+                color:white;
+                text-align: center;
+                padding:5px 10px 5px 10px;
+                border-right: 1px solid white;
+                text-decoration:none;
+            }
+             #nav-bar img{
+                height: 1em;
+                vertical-align: middle;
+            }
+            #nav-bar a:hover{
+                background-color: gray;
+                color:white;
+            }
+            #nav-bar a.active{
+                background-color: white;
+                color:black;
+            }
+
+            .product-pic{
+                display:block;
+                margin:auto;
+                width:700px;
+                text-align: center;
+            }
+
+            h1{
+                text-align: center;
+                font-size: 75px;
+            }
+            h2{
+                text-align: center;
+                font-size: 40px;
+            }
+
+            .text{
+                width:1000px;
+                margin: 0 auto;
+                line-height: 2em;
+            }
+
+            .button{
+                font-weight: bold;
+                font-size:20px;
+                border-width: 1px;
+                border-color: rgb(0,125,225);
+                border-style: solid;
+                padding:10px;
+                text-decoration: none;
+            }
+            .linkedin-button{
+                background-color: rgb(0,125,225);
+                color:white;
+            }
+            .linkedin-button:hover{
+                background-color: rgb(0,125,225,0.5);
+                border-color:rgb(0,125,225,0.5);
+            }
+            .resume-button{
+                background-color: rgb(0,0,50);
+                color: rgb(0,125,225);
+            }
+            .resume-button:hover{
+                background-color: rgb(0,125,225);
+                color: rgb(0,0,50);
+                border-color: rgb(0,0,50);
+            }
+        </style>
+    </head>
+
+    <body>
+        <div id="nav-bar">
+            <a href="./homepage.html">Home
+            <a href="./work.html">Work
+            <a class="active" href="./about.html">About
+            <a href="./brief-resume.html">Brief Résumé
+            <a href="./contact.html">Contact
+            <a href="https://www.linkedin.com/in/veronica-roberts" target="_blank"><img src="https://drive.google.com/uc?id=1-otTZKf7Jn5TuP6ztWMp-be1xmkuettW" alt="Veronica Roberts' LinkedIn"></a>
+        </div>
+        
+        <div class="text">
+            <!--<h1>
+                Brief Bio
+            </h1>-->
+            <h2 style="text-decoration: underline">
+                "What do you want to be when you grow up?"
+            </h2>
+            <h3>
+                <br>
+                I had no idea for a very long time; however, now that I've found industrial design, I couldn't be more excited about the possibilities of what I can help create.
+                <br><br>
+                I am detail-oriented and obsessive about creating the best deliverable no matter what I'm doing. These attributes, combined with my love of learning, drive me to continually improve my skills.
+                <br><br>
+                Currently, I am a senior at the Rose-Hulman Institute of Technology working towards a Bachelor's Degree in Mechanical Engineering and considering going to graduate school for a Master's Degree in Industrial Design.
+                <br><br>
+                Check out the 'Work' tab to see examples of my work and how it has evolved.
+                <br><br>
+                Click the link below to go to my LinkedIn page or a brief résumé.
+            </h3>
+            <a class="linkedin-button button" href="https://www.linkedin.com/in/veronica-roberts" target="_blank">My LinkedIn</a>
+            <a class="resume-button button" href="./brief-resume.html">Brief Résumé</a>
+        </div>
+    </body>
+</html>

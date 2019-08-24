@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            grill-2
+        </title>
+        
+        <style>
+            body{
+                background-color:rgb(0,0,50);
+                margin:0;
+                padding:0;
+                padding-top: 20px;
+                border:none;
+                color:rgb(0,125,225);
+                font-family: 'Helvetica', sans-serif;
+            }
+
+            #nav-bar{
+                position:fixed;
+                background-color:rgb(0,0,50);
+                overflow: hidden;
+                height:20px;
+                width:100%;
+                display:block;
+                font-family: 'Helvetica',sans-serif;
+                left:0;
+                top:0;
+                z-index:1;
+            }
+            #nav-bar a{
+                color:white;
+                text-align: center;
+                padding:5px 10px 5px 10px;
+                border-right: 1px solid white;
+                text-decoration:none;
+            }
+            #nav-bar img{
+                height: 1em;
+                vertical-align: middle;
+            }
+            #nav-bar a:hover{
+                background-color: gray;
+                color:white;
+            }
+            #nav-bar a.active{
+                background-color: white;
+                color:black;
+            }
+
+            .all{
+                display: flex;
+                flex-direction: column;
+            }
+
+            .main{
+                display:block;
+                text-align: center;
+                white-space: nowrap;
+            }
+
+            .product-pic{
+                margin-left: 70px;
+            }
+
+            .product-pic, .info{
+                display:inline-block;
+                height: 75vh;
+            }
+
+            .info{
+                width: 300px;
+                line-height: 1.5;
+                text-align: left;
+                overflow:auto;
+                margin-left: 75px;
+                margin-right:25px;
+                vertical-align: top;
+                white-space: normal;
+            }
+
+            a.button{
+                font-size: 60px;
+                color:rgb(0,125,225);
+                background-color: transparent;
+                border:none;
+                background-repeat: no-repeat;
+                background-size: contain;
+                overflow: hidden;
+                text-decoration: none;
+            }
+            a.button:hover{
+                background-color:gray;
+            }
+            .left-arrow{
+                margin-left: 20px;
+                float: left;
+            }
+            .right-arrow{
+                margin-right: 20px;
+                float: right;
+            }
+            .top-arrows, .bottom-arrows{
+                display:block;
+                width: 100vw;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <div id="nav-bar">
+            <a href="./homepage.html">Home
+            <a href="./work.html">Work
+            <a href="./about.html">About
+            <a href="./brief-resume.html">Brief Résumé
+            <a href="./contact.html">Contact
+            <a href="https://www.linkedin.com/in/veronica-roberts" target="_blank"><img src="https://drive.google.com/uc?id=1-otTZKf7Jn5TuP6ztWMp-be1xmkuettW" alt="Veronica Roberts' LinkedIn"></a>
+        </div>
+        
+        <div class="all">
+            <div class="top-arrows" style="order: 1">
+                <a href="./grill-1.html" class="left-arrow button">&lArr;</a>
+                <a href="./grill-3.html" class="right-arrow button">&rArr;</a> 
+            </div>          
+            
+            <div class="main" style="order: 2">
+                <img class="product-pic" src="https://drive.google.com/uc?id=1eV3ntY7vqFvqBMIKBLZ8L7Mwc7IDELst" alt="Grill Insulation" title="Grill Insulation">
+                        
+                <div class="info">
+                    <h3>
+                        Suggested Regions for Insulation
+                    </h3>
+
+                    <p>
+                        While testing the grill, my team found that the outside of the grill (including the handle) got excessively hot. One of our suggestions was to insulate the parts of the grill shown. In the grill we critiqued, these regions on the outershell of the grill are the only barrier between the user and the heating elements. In addition, the insulation would make the heat exit the cavity through the cook plate; hopefully. reducing the cook time of bacon from the 25 minutes it took in the original test. 
+                    </p>
+                </div>
+            </div>    
+            <br>
+
+            <div class="bottom-arrows" style="order: 3">
+                <a href="./grill-1.html" class="left-arrow button">&lArr;</a>
+                <a href="./grill-3.html" class="right-arrow button">&rArr;</a>
+            </div>
+        </div>
+        
+    </body>
+</html>
