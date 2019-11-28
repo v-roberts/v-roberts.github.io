@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            Aquapuss Base Concepts
+        </title>
+        
+        <style>
+            body{
+                background-color:rgb(0,0,50);
+                margin:0;
+                padding:0;
+                padding-top: 20px;
+                border:none;
+                color:rgb(0,125,225);
+                font-family: 'Helvetica', sans-serif;
+            }
+
+            #nav-bar{
+                position:fixed;
+                background-color:rgb(0,0,50);
+                overflow: hidden;
+                height:20px;
+                width:100%;
+                display:block;
+                font-family: 'Helvetica',sans-serif;
+                left:0;
+                top:0;
+                z-index:1;
+            }
+            #nav-bar a{
+                color:white;
+                text-align: center;
+                padding:5px 10px 5px 10px;
+                border-right: 1px solid white;
+                text-decoration:none;
+            }
+            #nav-bar img{
+                height: 1em;
+                vertical-align: middle;
+            }
+            #nav-bar a:hover{
+                background-color: gray;
+                color:white;
+            }
+            #nav-bar a.active{
+                background-color: white;
+                color:black;
+            }
+
+            .all{
+                display: flex;
+                flex-direction: column;
+            }
+
+            .main{
+                display:block;
+                text-align: center;
+                white-space: nowrap;
+            }
+
+            .product-pic{
+                margin-left: 70px;
+            }
+
+            .product-pic, .info{
+                display:inline-block;
+                height: 75vh;
+            }
+
+            .info{
+                width: 300px;
+                line-height: 1.5;
+                text-align: left;
+                overflow:auto;
+                margin-left: 75px;
+                margin-right:25px;
+                vertical-align: top;
+                white-space: normal;
+            }
+
+            a.button{
+                display: inline-block;
+                font-size: 60px;
+                color:rgb(0,125,225);
+                background-color: transparent;
+                border:none;
+                background-repeat: no-repeat;
+                background-size: contain;
+                overflow: hidden;
+                text-decoration: none;
+                line-height: 45px;
+            }
+            a.button:hover{
+                background-color:gray;
+            }
+            .left-arrow{
+                margin-left: 20px;
+                float: left;
+            }
+            .right-arrow{
+                margin-right: 20px;
+                float: right;
+            }
+            .top-arrows, .bottom-arrows{
+                display:block;
+                width: 100vw;
+            }
+            a.project-button {
+                font-size: 35px;
+            }
+            .project-button{
+                display: block;
+                text-align: center;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <div id="nav-bar">
+            <a href="./index.html">Home
+            <a href="./work.html">Work
+            <a href="./about.html">About
+            <a href="./brief-resume.html">Brief Résumé
+            <a href="./contact.html">Contact
+            <a href="https://www.linkedin.com/in/veronica-roberts" target="_blank"><img src="https://drive.google.com/uc?id=1-otTZKf7Jn5TuP6ztWMp-be1xmkuettW" alt="Veronica Roberts' LinkedIn"></a>
+        </div>
+        
+        <div class="all">
+            <div class="top-arrows" style="order: 1">            
+                <a href="./aquapuss-4.html" class="left-arrow button">&lArr;</a>
+                <a href="./aquapuss.html" class="right-arrow button">&rArr;</a>                 
+                <div class="project-button">
+                    <a href="./aquapuss.html" class="project-button button">Aquapuss</a>    
+                </div>
+            </div>          
+            
+            <div class="main" style="order: 2">
+                <img class="product-pic" src="https://drive.google.com/uc?id=1PhQkZMaE-aySLixMOzdvtZ4BEg2GZKeI" alt="Aquapuss Suckers" title="Aquapuss Suckers">
+                        
+                <div class="info">
+                    <h3>
+                        Feature Spotlight:
+                        <br>
+                        Aquapuss Base
+                    </h3>
+
+                    <p>
+                    Early in the process, we all came up with different concepts for what the base of the toy should look like. I favored bases that polygonal cross-sections so that the toy would not roll when knocked over.
+                    <br><br>
+                    The first concept has such an extreme angle to the sides that it would hopefully roll in small circles if knocked over. The other two concepts have polygonal cross sections (square and a triangle lofted up to a circle) that would not roll if knocked over. 
+                    </p>
+                </div>
+            </div>    
+            <br>
+
+            <div class="bottom-arrows" style="order: 3">
+                <a href="./aquapuss-4.html" class="left-arrow button">&lArr;</a>
+                <a href="./aquapuss.html" class="right-arrow button">&rArr;</a>                
+                <div class="project-button">
+                    <a href="./aquapuss.html" class="project-button button">Aquapuss</a>    
+                </div>
+            </div>
+        </div>
+        
+    </body>
+</html>

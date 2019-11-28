@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <title>
-            brief-resume
+            Brief Résumé
         </title>
         
         <style>
@@ -49,9 +49,9 @@
             }
 
             .text{
-                width:calc(1000px);
-                margin-left: 50px;
-                margin-right: 50px;
+                width: calc(100vw-100px);
+
+                text-align: left;
             }
 
             .job{
@@ -59,6 +59,9 @@
             }
             .date{
                 font-weight: bold;
+            }
+            .title{
+                font-size: 15px;
             }
             .class{
                 font-weight: bold;
@@ -70,6 +73,38 @@
                 padding: 0.5em;
                 vertical-align: top;
             }
+            td.bottom{
+                border-bottom: solid;
+            }
+
+            h2{
+                font-weight: bolder;
+            }
+            
+            .prof_dev{
+                background-color: rgb(0,125,225);
+                color: rgb(0,0,50);
+            }
+
+            .courses{
+                background-color: rgb(0,125,225);
+                color: rgb(0,0,50);
+            }
+
+            .level{
+                font-weight: bold;
+                text-decoration: underline;
+            }
+
+            .wrapper{
+                text-align: center;
+            }
+
+            .indent{
+                padding-right: 50px;
+                padding-left: 50px;
+            }
+            
         </style>
     </head>
 
@@ -83,113 +118,277 @@
             <a href="https://www.linkedin.com/in/veronica-roberts" target="_blank"><img src="https://drive.google.com/uc?id=1-otTZKf7Jn5TuP6ztWMp-be1xmkuettW" alt="Veronica Roberts' LinkedIn"></a>
         </div>
         
-        <div class="text">
-            <h2>
-                Experience
-            </h2>
-            <table class="experience">
-                <tr>
-                    <td class="job">
-                        Mechanical Intern (Archer Daniels Midland [ADM])
-                    </td>
-                    <td class="date">
-                        June 2017 - August 2017
-                    </td>
-                    <td class="description">
-                        As part of this internship, I was taught how to use AutoCAD Plant 3D. I used it to model several different size pipe shoes (pipe shoes reduce vibration and sag in pipes) that could be dropped into CAD models of ADM plants.
-                    </td>
-                </tr>
-                <tr>
-                    <td class="job">
-                        Engineering Student Community Actively Learning Advanced Technical Entrepreneurship (ESCALATE)
-                    </td>
-                    <td class="date">
-                        August 2016 - May 2016
-                    </td>
-                    <td class="description">
-                        As part of ESCALATE, I worked with a team to analyze how a product could be better designed and packaged in regards to reducing cost and improving efficiency. We picked a Big Boss Grill; after testing it we had several suggestions, including a different cooking plate design and insulation (more details can be found under the 'Work' tab).
-                    </td>
-                </tr>
-                <tr>
-                    <td class="job">
-                        Design Studio  
-                    </td>
-                    <td class="date">
-                        July 2016 - August 2016
-                    </td>
-                    <td class="description">
-                        During the five weeks of Design Studio, I learned how to use SolidWorks, lathes, milling machines, and drill presses. This culminated in a final project: over a span of 2 weeks, I worked with a team to make a remote control car that can be used by children with motor disabilities (more details can be found under the 'Work' tab).
-                    </td>
-                </tr>
-            </table>
+        <div class="wrapper">
+            <div class="text">
+                <p class="indent">
+                    <a href="https://drive.google.com/uc?id=1rQRlzQXMEsyQNXcyfzRLKc9Ot4szOwKs" target="_blank">Download a PDF Version Here!</a>
+                </p>
+                <div class="experience indent">
+                    <h2>
+                        Experience
+                    </h2>
+                    <table class="experience">
+                        <tr>
+                            <td class="job">
+                                Rose-Hulman Ventures
+                            </td>
 
-            <h2>
-                Technical Skills
-            </h2>
-            <ul>
-                <li>3D Printing</li>
-                <li>AutoDesk</li>
-                <li>Drill Press</li>
-                <li>Hand Tools</li>
-                <li>HTML / CSS</li>
-                <li>Laser Cutting</li>
-                <li>Lathe</li>
-                <li>MATLAB</li>
-                <li>Milling Machine</li>
-                <li>Power Tools</li>
-                <li>SolidWorks</li>
-                <li>Waterjet</li>
-            </ul>
+                            <td rowspan="3" class="description bottom">
+                                <ul>
+                                    <li>Responsible for designing a second-generation brain surgery tool for intercranial tumor excision</li>
+                                    <li>Designed accessories for existing NICO products that allow easier differentiation between cancerous and benign tissue</li>
+                                    <li>Contributed to enabling accurate cancer research models in rodents by designing specific tools for researchers</li>
+                                    <li>Tested and created prototypes and products through CAD and hands on work for both NICO and other multidisciplinary projects for other companies</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="title">
+                                Intern on NICO Corp. Projects
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="date bottom">
+                                March 2019 - Present
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td class="job">
+                                Engineering Design
+                            </td>
+            
+                            <td rowspan="3" class="description bottom">
+                                <ul>
+                                    <li>Supervised freshmen in machine shop while they used the lathe and milling machine</li>
+                                    <li>Helped set up and clean shop</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="title">
+                                Machine Shop TA
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="date bottom">
+                                August 2017 - November 2017
+                            </td>
+                        </tr>
 
-            <h2>
-                Relevant Coursework
-            </h2>
-            <table>
-                <tr>
-                    <td class="class">
-                        Introduction to Design
-                    </td>
-                    <td class="description">
-                        Covered the engineering design process (definition, analysis, alternate solutions, specifications of the final solution), oral and written communication, and teamwork for design. 
-                    </td>
-                </tr>
-                <tr>
-                    <td class="class">
-                        Graphical Communications  
-                    </td>
-                    <td class="description">
-                        The techniques used in engineering and scientific communication. Including sketching of pictures and diagrams, CAD, orthographic drawing, auxiliary views, reading engineering drawings, and using electronic forms of communication. 
-                    </td>
-                </tr>
-                <tr>
-                    <td class="class">
-                        Introduction to Entrepreneurship
-                    </td>
-                    <td class="description">
-                        Covered the principles of entrepreneurship and becoming an entrepreneur, including opportunity identification, market investigation, product development, developing marketing and business plans, understanding business, financial, and legal matters related to venture creation, lean startup, and canvas tools.
-                    </td>
-                </tr>
-                <tr>
-                    <td class="class">
-                        Design for Manufacturing  
-                    </td>
-                    <td class="description">
-                        Introduces design thinking and common manufacturing processes and their design guidelines. Emphasis on considering the methods of manufacture during the design process to create functional, cost effective, and safe.
-                    </td>
-                </tr>
-                <tr>
-                    <td class="class">
-                        Materials Engineering
-                    </td>
-                    <td class="description">
-                        Introduces properties of materials (metals, ceramics, polymers, and composites), along with material processing and its effect on material properties. 
-                    </td>
-                </tr>
+                        <tr>
+                            <td class="job">
+                                Archer Daniels Midland (ADM)
+                            </td>
+            
+                            <td rowspan="3" class="description bottom">
+                                <ul>
+                                    <li>Listed overpressure scenarios in Intelligent Pressure Relief System Management (iPRSM) based on P&IDs of factories</li>
+                                    <li>Used AutoCAD Plant 3D to make PFDs, P&IDs, and 3D models</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="title">
+                                Mechanical Intern
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="date bottom">
+                                June 2017 - August 2017
+                            </td>
+                        </tr>
+                    </table>
+                </div>
 
-            </table>
-            <h6>
-                Descriptions adapted from Rose-Hulman Institute of Technology's 2018-2019 Course Catalog
-            </h6> 
+                <div class="prof_dev indent">
+                    <h2>
+                        Professional Development
+                    </h2>
+                    <table class="prof_dev">
+                        <tr>
+                            <td class="job">
+                                Multidisciplinary Senior Design
+                            </td>
+
+                            <td rowspan="2" class="description bottom">
+                                <ul>
+                                    <li>Working on a multidisciplinary team to design and manufacture a toy for children with disabilities</li>
+                                    <li>Communicating directly with Reach Services to set up meetings, set milestones, conduct research, and iterate design</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="date bottom">
+                                2019 - 2020
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="job">
+                                Engineering Design
+                            </td>
+
+                            <td rowspan="2" class="description bottom">
+                                <ul>
+                                    <li>Learned design methods for form, function, and manufacturing techniques</li>
+                                    <li>Designed products with special attention to chosen target demographics</li>
+                                    <li>Presented and defended designs to peers, professors, and clients</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="date bottom">
+                                2019
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="job">
+                                Engineering Student Community Actively Learning Advanced Technical Entrepreneurship (ESCALATE) 
+                            </td>
+
+                            <td rowspan="2" class="description bottom">
+                                <ul>
+                                    <li>Worked on a team to test and improve a countertop grill, including finding cost reducing solutions and present on those findings</li>
+                                    <li>Presented with a team on a business model for a mobile car washing service </li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="date bottom">
+                                2016
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="job">
+                                Design Studio
+                            </td>
+            
+                            <td rowspan="2" class="description bottom">
+                                <ul>
+                                    <li>Participated in a team to develop and present (to peers, professors, clients, and local TV news) a remotecontrol car adapted for children with fine- and gross-motor disabilities</li>
+                                    <li>Modeled the joystick handles in SolidWorks and fabricated them in a machine shop</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="date bottom">
+                                2016
+                            </td>
+                        </tr>
+                    </table>                
+                </div>
+
+
+
+                <h2 class="indent">
+                    Technical Skills
+                </h2>
+                <table class="tech_skills indent">
+                    <tr class="level">
+                        <td>
+                            Advanced
+                        </td>
+                        <td>
+                            Intermediate
+                        </td>
+                        <td>
+                            Familiar
+                        </td>
+                    </tr>
+                    <tr class="skills">
+                        <td>
+                            <ul>
+                                <li>Hand Tools</li>
+                                <li>Maple</li>
+                                <li>MATLAB</li>
+                                <li>Microsoft Office Suite</li>
+                                <li>Power Tools</li>
+                                <li>SolidWorks</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul>
+                                <li>3D Printing</li>
+                                <li>AutoCAD</li>
+                                <li>CSS</li>
+                                <li>HTML</li>
+                                <li>Laser Cutting</li>
+                                <li>Waterjet</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul>
+                                <li>ANSYS</li>
+                                <li>iPRSM</li>
+                                <li>Machine Shop
+                                    <ul>
+                                        <li>Drill Press</li>
+                                        <li>Lathe</li>
+                                        <li>Milling Machine</li>
+                                    </ul>
+                                </li>
+                                <li>Minitab</li>
+                                <li>R</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </table>
+
+                <div class="courses">
+                    <h2 class="indent">
+                        Relevant Coursework
+                    </h2>
+                    <table class="indent">
+                        <tr>
+                            <td class="class bottom">
+                                Introduction to Design
+                            </td>
+                            <td class="description bottom">
+                                Covered the engineering design process (definition, analysis, alternate solutions, specifications of the final solution), oral and written communication, and teamwork for design. 
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="class bottom">
+                                Graphical Communications  
+                            </td>
+                            <td class="description bottom">
+                                The techniques used in engineering and scientific communication. Including sketching of pictures and diagrams, CAD, orthographic drawing, auxiliary views, reading engineering drawings, and using electronic forms of communication. 
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="class bottom">
+                                Introduction to Entrepreneurship
+                            </td>
+                            <td class="description bottom">
+                                Covered the principles of entrepreneurship and becoming an entrepreneur, including opportunity identification, market investigation, product development, developing marketing and business plans, understanding business, financial, and legal matters related to venture creation, lean startup, and canvas tools.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="class bottom">
+                                Design for Manufacturing  
+                            </td>
+                            <td class="description bottom">
+                                Introduces design thinking and common manufacturing processes and their design guidelines. Emphasis on considering the methods of manufacture during the design process to create functional, cost effective, and safe.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="class bottom">
+                                Materials Engineering
+                            </td>
+                            <td class="description bottom">
+                                Introduces properties of materials (metals, ceramics, polymers, and composites), along with material processing and its effect on material properties. 
+                            </td>
+                        </tr>
+
+                    </table>
+                    <h6>
+                        Descriptions adapted from Rose-Hulman Institute of Technology's 2018-2019 Course Catalog
+                    </h6>
+                </div> 
+            </div>
         </div>
     </body>
 </html>

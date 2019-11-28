@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            SnapDragon CAD
+        </title>
+        
+        <style>
+            body{
+                background-color:rgb(0,0,50);
+                margin:0;
+                padding:0;
+                padding-top: 20px;
+                border:none;
+                color:rgb(0,125,225);
+                font-family: 'Helvetica', sans-serif;
+            }
+
+            #nav-bar{
+                position:fixed;
+                background-color:rgb(0,0,50);
+                overflow: hidden;
+                height:20px;
+                width:100%;
+                display:block;
+                font-family: 'Helvetica',sans-serif;
+                left:0;
+                top:0;
+                z-index:1;
+            }
+            #nav-bar a{
+                color:white;
+                text-align: center;
+                padding:5px 10px 5px 10px;
+                border-right: 1px solid white;
+                text-decoration:none;
+            }
+            #nav-bar img{
+                height: 1em;
+                vertical-align: middle;
+            }
+            #nav-bar a:hover{
+                background-color: gray;
+                color:white;
+            }
+            #nav-bar a.active{
+                background-color: white;
+                color:black;
+            }
+
+            .all{
+                display: flex;
+                flex-direction: column;
+            }
+
+            .main{
+                display:block;
+                text-align: center;
+                white-space: nowrap;
+            }
+
+            .product-pic{
+                margin-left: 70px;
+            }
+
+            .product-pic, .info{
+                display:inline-block;
+                height: 75vh;
+            }
+
+            .info{
+                width: 300px;
+                line-height: 1.5;
+                text-align: left;
+                overflow:auto;
+                margin-left: 75px;
+                margin-right:25px;
+                vertical-align: top;
+                white-space: normal;
+            }
+
+            a.button{
+                display: inline-block;
+                font-size: 60px;
+                color:rgb(0,125,225);
+                background-color: transparent;
+                border:none;
+                background-repeat: no-repeat;
+                background-size: contain;
+                overflow: hidden;
+                text-decoration: none;
+                line-height: 45px;
+            }
+            a.button:hover{
+                background-color:gray;
+            }
+            .left-arrow{
+                margin-left: 20px;
+                float: left;
+            }
+            .right-arrow{
+                margin-right: 20px;
+                float: right;
+            }
+            .top-arrows, .bottom-arrows{
+                display:block;
+                width: 100vw;
+            }
+            a.project-button {
+                font-size: 35px;
+            }
+            .project-button{
+                display: block;
+                text-align: center;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <div id="nav-bar">
+            <a href="./index.html">Home
+            <a href="./work.html">Work
+            <a href="./about.html">About
+            <a href="./brief-resume.html">Brief Résumé
+            <a href="./contact.html">Contact
+            <a href="https://www.linkedin.com/in/veronica-roberts" target="_blank"><img src="https://drive.google.com/uc?id=1-otTZKf7Jn5TuP6ztWMp-be1xmkuettW" alt="Veronica Roberts' LinkedIn"></a>
+        </div>
+        
+        <div class="all">
+
+
+            <div class="top-arrows" style="order: 1">            
+
+                <a href="./snapdragon-4.html" class="left-arrow button">&lArr;</a>
+                <a href="./snapdragon-6.html" class="right-arrow button">&rArr;</a>                 
+                <div class="project-button">
+                    <a href="./snapdragon.html" class="project-button button">SnapDragon</a>    
+                </div>
+            </div>          
+            
+            <div class="main" style="order: 2">
+                <img class="product-pic" src="https://drive.google.com/uc?id=1eQPbFCMpeb19f_uLHDqY3hSHtE_bqmMh" alt="SnapDragon CAD" title="SnapDragon CAD">
+                        
+                <div class="info">
+                    <h3>
+                        SnapDragon CAD
+                    </h3>
+
+                    <p>
+                    The full CAD assembly has a much different texture applied to it than the actual product actually would. I wanted to create a scale-like texture to show that it is a dragon and to lend depth to the surfaces, so I used carpet-texture and colored it green. This ended up being a fairly successful replication.
+                    <br><br>
+                    In production, this toy would be made out of ABS Lustran 433 of a single color. This color would most likely be bright and vibrant, such as the yellow used in the 3D printed version. This will both appeal to children and keep the cost low.
+                    <br><br>
+                    As for reactions to the CAD model, most people had a mildly unfavorable reaction to it. However, as a designer, I pride myself on being able to see what can (and will be, if I work for it to be so). So, while the CAD model of it isn't quite as cute as the 3D printed version, I knew that with a smoother finish and a physical presence the toy would leave a much better impression.
+                    </p>
+                </div>
+            </div>    
+            <br>
+
+            <div class="bottom-arrows" style="order: 3">
+                <a href="./snapdragon-4.html" class="left-arrow button">&lArr;</a>
+                <a href="./snapdragon-6.html" class="right-arrow button">&rArr;</a>                
+                <div class="project-button">
+                    <a href="./snapdragon.html" class="project-button button">SnapDragon</a>    
+                </div>
+            </div>
+        </div>
+        
+    </body>
+</html>

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            Portfolio Site
+        </title>
+        
+        <style>
+            body{
+                background-color:rgb(0,0,50);
+                margin:0;
+                padding:0;
+                padding-top: 20px;
+                padding-bottom: 20px;
+                border:none;
+                color:rgb(0,125,225);
+                font-family: 'Helvetica', sans-serif;
+            }
+
+            #nav-bar{
+                position:fixed;
+                background-color:rgb(0,0,50);
+                overflow: hidden;
+                height: 20px;
+                width:100%;
+                display:block;
+                font-family: 'Helvetica',sans-serif;
+                left:0;
+                top:0
+            }
+            #nav-bar a{
+                color:white;
+                text-align: center;
+                padding:5px 10px 5px 10px;
+                border-right: 1px solid white;
+                text-decoration:none;
+            }
+             #nav-bar img{
+                height: 1em;
+                vertical-align: middle;
+            }
+            #nav-bar a:hover{
+                background-color: gray;
+                color:white;
+            }
+            #nav-bar a.active{
+                background-color: white;
+                color:black;
+            }
+
+            .product-pic{
+                display:block;
+                margin:auto;
+                width:700px;
+                text-align: center;
+            }
+
+            h1{
+                text-align: center;
+            }
+
+            .text{
+                width:1000px;
+                margin: 0 auto;
+            }
+
+            table{
+                margin-left: 50px;
+            }
+            td{
+                vertical-align: top;
+                height: 30px;
+            }
+            ul{
+                display: inline-block;
+            }
+            .date{
+                width: 150px;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <div id="nav-bar">
+            <a href="./index.html">Home
+            <a href="./work.html">Work
+            <a href="./about.html">About
+            <a href="./brief-resume.html">Brief Résumé
+            <a href="./contact.html">Contact
+            <a href="https://www.linkedin.com/in/veronica-roberts" target="_blank"><img src="https://drive.google.com/uc?id=1-otTZKf7Jn5TuP6ztWMp-be1xmkuettW" alt="Veronica Roberts' LinkedIn"></a>
+        </div>
+        
+        <h1 class="text">
+            This Site
+        </h1>
+        <br>
+        <img class="product-pic" src="https://drive.google.com/uc?id=1iI2VjAXGZuVT9Jt0ye7jNtwLjd3Kjpq1" alt="Original Portfolio Homepage" title="Original Portfolio Homepage">
+        <br>
+        <h3 class="text">
+            I like to undertake small educational projects during my summers (e.g. completing reading lists or learning new skills). During the summer of 2019, I decided that learning the skills necessary to create a website would elevate my portfolio. Previously, my portfolio was hosted on a <a href="https://robertsveronicaj.wixsite.com/portfolio" target="_blank">Wix site</a>. 
+            <br><br>
+            Over the course of about a month (June 29 - July 30), I completed Khan Academy's course on CSS and HTML. In early August, I started making my own website with plenty of additional help from Stack Overflow and w3schools. Please explore the website and feel free to leave feedback in the contact form; I'm always looking to improve. I'll be updating the timeline below to detail changes to the website. Next, I plan on learning JavaScript to add more involved interaction to parts of this site. (Summer 2019)
+            <br><br>
+        </h3>
+
+        <table>
+            <tr>
+                <td class="date">June 29, 2019 </td>
+                <td> Veronica starts lessons on Khan Academy</td>
+            </tr>
+            <tr>
+                <td class="date">July 27, 2019 </td>
+                <td> Veronica starts making this website</td>
+            </tr>
+            <tr>
+                <td class="date">July 30, 2019 </td>
+                <td> Veronica finishes the CSS/HTML lessons on Khan Academy</td>
+            </tr>
+            <tr>
+                <td class="date">Early-August 2019 </td>
+                <td> Veronica gets really good at phrasing problems in such a way solutions can be found on sites like Stack Overflow and w3schools</td>
+            </tr>
+            <tr>
+                <td class="date">August 24, 2019 </td>
+                <td> Veronica commits all the files for this site to GitHub for the first time; immediately has to re-commit them after fixing the naming of the homepage</td>
+            </tr>
+            <tr>
+                <td class="date">November 26, 2019 </td>
+                <td> Veronica adds: 
+                    <br>
+                    <ul>
+                        <li>Several projects</li>
+                        <li>Project buttons in each of the detail pages</li>
+                        <li>Updated Brief Résumé</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>

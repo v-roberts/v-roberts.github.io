@@ -80,6 +80,7 @@
             }
 
             a.button{
+                display: inline-block;
                 font-size: 60px;
                 color:rgb(0,125,225);
                 background-color: transparent;
@@ -88,6 +89,7 @@
                 background-size: contain;
                 overflow: hidden;
                 text-decoration: none;
+                line-height: 45px;
             }
             a.button:hover{
                 background-color:gray;
@@ -103,6 +105,13 @@
             .top-arrows, .bottom-arrows{
                 display:block;
                 width: 100vw;
+            }
+            a.project-button {
+                font-size: 35px;
+            }
+            .project-button{
+                display: block;
+                text-align: center;
             }
 
         </style>
@@ -121,7 +130,10 @@
         <div class="all">
             <div class="top-arrows" style="order: 1">
                 <a href="./rc-car-2.html" class="left-arrow button">&lArr;</a>
-                <a href="./rc-car-4.html" class="right-arrow button">&rArr;</a> 
+                <a href="./rc-car-4.html" class="right-arrow button">&rArr;</a>
+                <div class="project-button">
+                    <a href="./rc-car.html" class="project-button button">RC Car</a>    
+                </div>  
             </div>          
             
             <div class="main" style="order: 2">
@@ -142,6 +154,9 @@
             <div class="bottom-arrows" style="order: 3">
                 <a href="./rc-car-2.html" class="left-arrow button">&lArr;</a>
                 <a href="./rc-car-4.html" class="right-arrow button">&rArr;</a>
+                <div class="project-button">
+                    <a href="./rc-car.html" class="project-button button">RC Car</a>    
+                </div> 
             </div>
         </div>
         
